@@ -7,9 +7,9 @@ const hostname = window.location.hostname;
 
 export const commands: Record<string, (args: string[]) => Promise<string> | string> = {
   help: () => 'Available commands: ' + Object.keys(commands).join(', '),
-  hostname: () => hostname,
-  whoami: () => 'guest',
-  date: () => new Date().toLocaleString(),
+  hostname: () => 'publicsrv//foi',
+  whoami: () => 'perm//LANCER',
+  date: () => '12.94.5022u',
   vi: () => `why use vi? try 'emacs'`,
   vim: () => `why use vim? try 'emacs'`,
   emacs: () => `why use emacs? try 'vim'`,
